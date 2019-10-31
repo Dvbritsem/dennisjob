@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" id="Start">  
+<head>
+    <title>Sprint 3 Onepager</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EigenOnepager.css">
+</head>
+<body>
+    <nav>
+        <!--Start = Introductie-->
+        <li><a href="#Start">Introductie</a></li>
+        <!--Deel 2 = Inhoud-->
+        <li><a href="#deel2">Inhoud</a></li>
+        <!--Deel 3 = Animatie-->
+        <li><a href="#deel3">Animatie</a></li>
+        <!--Deel 4 = Voordelen-->
+        <li><a href="#deel4">Voordelen</a></li>
+    </nav>
+<!--Start-->
+    <div class="Startwrapper">
+        <section class="Startblok">
+            <img class="afbstart" src="Images/Project.jpeg" alt="Afbeelding start">
+            <article class="Start">
+                <h2>Het product</h2>
+                <p>Dit geweldige systeem is speciaal gemaakt voor werknemers die vroeg in de ochtend al naar hun werk toe gaan. Als je aankomt op je werk wil je niet eerst het licht aandoen of de verwarming aanzetten op de juiste temperatuur. Dit systeem doet dat voor je! Je klokt in met een tag bij de voordeur of op je kantoor en alles wordt vanzelf voor je geregeld.</p>
+            </article>
+        </section>
+    </div>
+<!--Einde start-->
+    <div class="Eindeblok" id="deel2">
+    </div>
+<!--Deel2-->
+    <div class="deel2wrapper">
+        <section class="deel2blok"`>
+            <img class="deel2afb" src="Images/RFID.png" alt="RFIDTag/Reader">
+            <article class="deel2tekst">
+                <h2>RFID reader</h2>
+                <p>Om te kunnen zien of er mensen binnenkomen heb ik gebruik gemaakt van een RFID reader. De mensen kunnen dan met een tag inchecken bij het systeem.</p>
+            </article>
+        </section>
+        <section class="deel2blok"`>
+            <img class="deel2afb" src="Images/leds.jpg" alt="Leds">
+            <article class="deel2tekst">
+                <h2>LEDs</h2>
+                <p>Om de gekozen voorkeuren te simuleren heb ik 4 Leds gebruikt. Geel stelt het licht voor. Rood, blauw en groen bootsen de stand van de verwarming aan.</p>
+            </article>
+        </section>
+        <section class="deel2blok"`>
+            <img class="deel2afb" src="Images/IRLeds.jpg.png" alt="IRLed/Sensor">
+            <article class="deel2tekst">
+                <h2>IR sensor/led</h2>
+                <p>Het product stuurt in infrarood een singaal door naar het netwerk. Dit netwerk stuurt dan vervolgens in infrarood de gewenste voorkeuren naar het product.</p>
+            </article>
+        </section>
+    </div>
+<!--Einde deel2-->
+    <div class="Eindeblok" id="deel3">
+    </div>
+<!--Deel3-->
+    <div class="deel3wrapper">
+        <section class="deel3opties">
+            <h2 class="optietitel">Licht:</h2>
+            <label class="optie">Aan
+                <input type="radio" name="licht" id="aan" checked>
+                <span class="checkmark"></span>
+            </label>
+            <label class="optie">Uit
+                <input type="radio" name="licht" id="uit">
+                <span class="checkmark"></span>
+            </label>
+            <h2 class="optietitel">Stand verwarming:</h2>
+            <label class="optie">Een
+                <input type="radio" name="verwarming" id="rood" checked>
+                <span class="checkmark"></span>
+            </label>
+            <label class="optie">Twee
+                <input type="radio" name="verwarming" id="groen">
+                <span class="checkmark"></span>
+            </label>
+            <label class="optie">Drie
+                <input type="radio" name="verwarming" id="blauw">
+                <span class="checkmark"></span>
+            </label>
+            <h2 class="optietitel">Check in:</h2>
+            <button class="tagknop" onclick="irsend()" id="tagknop">
+                <img src="Images/Tag.png" alt="Tag" class="tagknop">
+            </button>
+        </section>
+        <section class="deel3animatie">
+            <img src="Images/IR2.png" alt="ir verbinding" id="irverbinding2">
+            <img src="Images/IR.png" alt="ir verbinding" id="irverbinding">
+            <img src="Images/IRuit.png" id="irverbindingen">
+            <div class="deel3projecten">
+                <img class="deel3project" src="Images/ProjectTekening.png" alt="Projectuit" id="alles-uit">
+                <img class="deel3project" src="Images/ProjectTekening-rood-aan.png" alt="Rood/Aan" id="rood-aan">
+                <img class="deel3project" src="Images/ProjectTekening-groen-aan.png" alt="Groen/Aan" id="groen-aan">
+                <img class="deel3project" src="Images/ProjectTekening-blauw-aan.png" alt="Blauw/Aan" id="blauw-aan">
+                <img class="deel3project" src="Images/ProjectTekening-rood-uit.png" alt="Rood/Uit" id="rood-uit">
+                <img class="deel3project" src="Images/ProjectTekening-groen-uit.png" alt="Groen/Uit" id="groen-uit">
+                <img class="deel3project" src="Images/ProjectTekening-blauw-uit.png" alt="Blauw/Uit" id="blauw-uit">
+            </div>
+        </section>
+    </div>
+<!--Einde deel3-->
+    <div class="Eindeblok" id="deel4">
+    </div>
+<!--Deel4-->
+    <div class="deel4wrapper">
+        <h2>Waarom heb je dit nodig?</h2>
+        <div class="deel4blokken">
+            <section class="deel4blok">
+                <article class="deel4tekst">
+                    <img class="deel4vinkje" src="Images/vinkje.png" alt="Vinkje">
+                    <h3>Toepasbaarheid</h3>
+                    <p>Het systeem is gemakkelijk te installeren en kan gelijk gebruikt worden.</p>
+                </article>
+            </section>
+            <section class="deel4blok">
+                <article class="deel4tekst">
+                    <img class="deel4vinkje" src="Images/vinkje.png" alt="Vinkje">
+                    <h3>Gebruiksvriendelijk</h3>
+                    <p>Je hebt geen uitleg nodig om dit systeem te gebruiken. Je personeel kan gemakkelijk gebruik maken van dit systeem.</p>
+                </article> 
+            </section>
+            <section class="deel4blok">
+                <article class="deel4tekst">
+                    <img class="deel4vinkje" src="Images/vinkje.png" alt="Vinkje">
+                    <h3>Uitbreidbaar</h3>
+                    <p>Dit systeem is gemakkelijk uit te breiden. Ook is het mogelijk om meerdere acties en voorkeuren toe te voegen.</p>
+                </article>
+            </section>
+            <section class="deel4blok">
+                <article class="deel4tekst">
+                    <img class="deel4vinkje" src="Images/vinkje.png" alt="Vinkje">
+                    <h3>Aanpasbaar</h3>
+                    <p>Het is mogelijk om andere sensoren te gebruiken en om knoppen toe te voegen om de RFID tags te vervangen.</p>
+                </article>
+            </section>
+        </div>
+    </div>
+<!--Einde deel3-->
+    <div class="Eindeblok" id="deel3">
+    </div>
+    <div class="ruimte"></div>
+</body>
+    <script type="text/javascript" src="Eigenonepager.js"></script>
+</html>
