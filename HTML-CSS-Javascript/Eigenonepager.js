@@ -17,6 +17,10 @@ let rood = document.getElementById("rood");
 let groen = document.getElementById("groen");
 let blauw = document.getElementById("blauw");
 
+tagknop.onclick = function(){
+    irsend();
+}
+
 function irsend() {
     ir.style.display = "flex";
     tagknop.disabled = true;

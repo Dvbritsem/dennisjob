@@ -22,9 +22,13 @@
         position: sticky;
         top: 0;
         z-index: 1;
+    }
+
+    ul {
+        list-style: none;
         display: flex;
-        flex-direction: row;
         justify-content: space-around;
+        flex-direction: row;
     }
 
     li {
@@ -334,20 +338,22 @@
 /*Desktop*/
 @media only screen and (min-width: 1000px) {
 
-/*Start*/
-
+    /*Start*/
     .Startwrapper {
         width: 1000px;
     }
+
     .Startblok {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: space-between;
     }
+
     .Start {
         padding: 0px;
         width: 60%;
     }
+}
 
 /*Einde start*/
 /*deel2*/
