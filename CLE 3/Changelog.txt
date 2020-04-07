@@ -1,0 +1,26 @@
+Versie 1.0 18 maart 2020 10 uur Dennis
+Nieuw:
+- Api data wordt aangevraagd en in een variabele gezet.
+
+Versie 1.1 18 maart 2020 13 uur Dennis
+Nieuw:
+- Data wordt in html laten zien.
+- Functie die bepaalt welk wolk icon wordt laten zien.
+
+Versie 1.2 18 maart 2020 14 uur Wiwi
+Nieuw:
+- front-end aangemaakt
+- afmaken Home-pagina(header, foto, text en footer)
+
+Versie 2.1  23 maart 2020 12 uur Wiwi
+Nieuw:
+- verder met home pagina en beginnen met dakpark pagina
+
+Versie 3.1  25 maart 2020 15 uur Wiwi
+Nieuw:
+- dakpark pagina afmaken en beginnen met FLowerPower pagina(het knop aanmaken)
+
+Versie 4.1  30 maart 2020 12 uur Wiwi
+Nieuw:
+- Het website op mobiel uittesten
+

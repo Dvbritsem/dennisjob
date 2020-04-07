@@ -1,0 +1,111 @@
+.navbar-logo,.navbar-logo:hover {
+    color: darkgreen;
+    font-size:26px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    letter-spacing:7pt;
+    font-weight:bold;
+    line-height:18px;
+    text-decoration: none;
+}
+.dakpark{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 50px;
+    top: 17px;
+}
+.navbar, .footer-main{
+    background-color: forestgreen;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.weerinfo{
+     margin-bottom: 5%;
+    list-style-type: none;
+ }
+
+.button1{
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: forestgreen;
+    color: white;
+}
+.header-img{
+    margin-bottom: 50px;
+}
+#map{
+    height: 300px;
+}
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE 10 */
+    flex: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.headerfoto{
+    overflow: hidden;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+}
+#map{
+    height: 300px;
+}
+.center{
+    text-align: center;
+}
+.foto img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.footer{
+    color: white;
+}
+.column img{
+    width:100%;
+}
+.inleiding, .container-lg, .container-md, .container-sm {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media (min-width: 992px){
+
+}
+/*voor mobiel*/
+@media (max-width: 768px) {
+    .dakpark {
+        bottom: -150px;
+        top: 26px;
+    }
+    .headerfoto{
+        overflow: hidden;
+        height: 200px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar-logo{
+        padding-top: 10px;
+    }
+}
